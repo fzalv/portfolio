@@ -8,6 +8,14 @@ body {
 	margin-top: 30px;
 }
 
+.jumbotron {
+	height: 400px;
+	background-image: url('../img/bg-jumbo.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 1px -160px;
+}
+
 .jumbotron img {
 	width: 200px;
 	height: 200px;
