@@ -20,6 +20,8 @@ $(document).ready(function(){
 
 // paralax
 $(window).scroll(function(){
+
+  // jumbotron
   var wScroll = $(this).scrollTop();
 
   $('.jumbotron img').css({
@@ -33,4 +35,9 @@ $(window).scroll(function(){
   $('.jumbotron p').css({
     'transform' : 'translate(0px, '+ wScroll/2 +'%)'
   });
+
+  //portfolio
+  if (wScroll > $('.portfolio').offset().top - 200) {
+    $('.portfolio .img-thumbnail').addClass('tampil');
+  }
 });

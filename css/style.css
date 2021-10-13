@@ -42,6 +42,14 @@ section {
 	background-color: #eee;
 }
 
+.portfolio .img-thumbnail {
+	opacity: 0;
+}
+
+.portfolio .img-thumbnail.tampil {
+	opacity: 1;
+}
+
 .portfolio .container .row a img {
 	margin-bottom: 15px;
 }
